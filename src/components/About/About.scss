@@ -9,3 +9,24 @@
         text-align: center;
     }
 }
+
+.about_card{
+    display: flex;
+    margin: 2em;
+    justify-content: space-between;
+    .about_figure{
+        margin: 1em;
+        img{
+            width: 100%;
+        }
+    }
+    .about_caption{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        padding: 2em;
+    }
+}
