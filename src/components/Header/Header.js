@@ -1,10 +1,12 @@
-import React from 'react'
-import './header.scss'
+import React from "react";
+import "./header.scss";
 
 function Header() {
   return (
-    <div className='header'>VerveChat</div>
-  )
+    <div className="header">
+      <h1>VerveChat - Video Chat with Strangers</h1>
+    </div>
+  );
 }
 
 export default Header;
