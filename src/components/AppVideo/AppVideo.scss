@@ -1,12 +1,26 @@
-.app-video{
-    color: white;
-    background: linear-gradient(156.8deg, rgb(30, 144, 231) 27.1%, rgb(67, 101, 225) 77.8%);
-    padding: 2%;
+.app-video {
+  color: white;
+  background: linear-gradient(
+    156.8deg,
+    rgb(30, 144, 231) 27.1%,
+    rgb(67, 101, 225) 77.8%
+  );
+  height: 100vh;
 }
-.app-video-box{
-    border: 2px solid white;
+.app-video-box {
+  border: 2px solid white;
+
+  height: 100vh;
+  background-color: #282c34eb;
+}
+
+@media screen and (min-width: 1000px) {
+  .app-video {
+    padding: 2%;
+  }
+  .app-video-box {
     margin-left: 10%;
     margin-right: 10%;
-    height: 85vh;
-    background-color: #282c34eb;
+    height: 80vh;
+  }
 }

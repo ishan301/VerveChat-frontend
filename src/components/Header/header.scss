@@ -2,12 +2,15 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    // background-color: #202529; 
-    // color: white;
     h1{
         font-family: 'Courier New', Courier, monospace;
         font-weight: bolder;
         font-size: xx-large;
     }
     padding: 1%;
+}
+@media screen and (max-width:1000px) {
+    .header{
+        display: none;
+    }
 }

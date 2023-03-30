@@ -25,7 +25,7 @@ function About() {
           </p>
           <p>
             The main purpose for this app is to provide these services for free
-            for which many websites charge users
+            for which many websites charge users.
           </p>
         </div>
       </div>
