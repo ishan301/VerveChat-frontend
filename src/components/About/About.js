@@ -29,6 +29,16 @@ function About() {
           </p>
         </div>
       </div>
+      <div className="contributung">
+        <p>
+          ALL THOSE WHO WANT TO CONTRIBUTE TO THIS APPLICATION ARE WELCOME TO
+          CONTRIBUTE. PLEASE{" "}
+          <a href="https://github.com/ishan301/VerveChat-frontend" target="_blank" rel="noreferrer">
+            {" "}
+            Contribute Here.
+          </a>
+        </p>
+      </div>
     </section>
   );
 }
