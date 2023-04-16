@@ -12,6 +12,10 @@
 
   height: 100vh;
   background-color: #282c34eb;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1000px) {
