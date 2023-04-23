@@ -12,7 +12,7 @@ function AppVideo() {
       <div className="app-video-box">
         <Routes>
           <Route path="login" element={<Login />} />
-          <Route path="/*" element={<Home/>}/>
+          <Route path="*" element={<Home/>}/>
         </Routes>
       </div>
     </div>
