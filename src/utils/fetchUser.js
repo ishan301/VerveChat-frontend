@@ -1,2 +1,2 @@
-export const userInfo = ()=>localStorage.getItem('user');
+export const fetchUser = ()=>localStorage.getItem('user');
 
